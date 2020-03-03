@@ -16,10 +16,10 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* DreamAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* DreamAppTests.m */; };
-		77EC889EF19B9EF170C3A8D7 /* libPods-DreamApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D9F0E6E21DA939FD83AD1ABE /* libPods-DreamApp-tvOSTests.a */; };
-		8E580CEBABF60B29CB3B4878 /* libPods-DreamAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52DADC872EBF6B60A0B8D9F3 /* libPods-DreamAppTests.a */; };
-		A6E6C41F81BFEF7F73C5437E /* libPods-DreamApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF6B5DDC55A9DF7116E90EF7 /* libPods-DreamApp-tvOS.a */; };
-		B4E6257067AF725CEB3A5418 /* libPods-DreamApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BDF3AC0C7302D037D0AC230E /* libPods-DreamApp.a */; };
+		5388A0F7780E1CE98EEE2DC7 /* libPods-DreamApp-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 16A021251CD1DC498E3DFD28 /* libPods-DreamApp-tvOSTests.a */; };
+		804E72F4549D4472926882C4 /* libPods-DreamAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B92B0E55C6D2C6CA4D816B9 /* libPods-DreamAppTests.a */; };
+		9E5453EBD59583BA20A75D87 /* libPods-DreamApp-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FA9263766C004E2761D81E4 /* libPods-DreamApp-tvOS.a */; };
+		F4B9D2620D221596BBD65A7D /* libPods-DreamApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CBAE83D6367184C62A5C89E6 /* libPods-DreamApp.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,8 @@
 		00E356EE1AD99517003FC87E /* DreamAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* DreamAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamAppTests.m; sourceTree = "<group>"; };
+		033159DAE1159400C7C94959 /* Pods-DreamApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOS/Pods-DreamApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		10F4858FCE8BB29EB6C826DA /* Pods-DreamAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamAppTests/Pods-DreamAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* DreamApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = DreamApp/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = DreamApp/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,22 +53,20 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = DreamApp/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = DreamApp/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = DreamApp/main.m; sourceTree = "<group>"; };
-		16EFA6845A1E0FC0EEDCEBBF /* Pods-DreamApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOSTests/Pods-DreamApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		16A021251CD1DC498E3DFD28 /* libPods-DreamApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* DreamApp-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DreamApp-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* DreamApp-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "DreamApp-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		52DADC872EBF6B60A0B8D9F3 /* libPods-DreamAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		531220B354FF4E3C75F705C4 /* Pods-DreamAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamAppTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamAppTests/Pods-DreamAppTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6A66712EBF88911891E6EDEB /* Pods-DreamAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamAppTests.release.xcconfig"; path = "Target Support Files/Pods-DreamAppTests/Pods-DreamAppTests.release.xcconfig"; sourceTree = "<group>"; };
-		85110D36CA070D3328CB3599 /* Pods-DreamApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp.release.xcconfig"; path = "Target Support Files/Pods-DreamApp/Pods-DreamApp.release.xcconfig"; sourceTree = "<group>"; };
-		A5E5DF85B3DBBEB26A085E4A /* Pods-DreamApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOS/Pods-DreamApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		BDF3AC0C7302D037D0AC230E /* libPods-DreamApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9F0E6E21DA939FD83AD1ABE /* libPods-DreamApp-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC7584D4183E13DC6FED55DF /* Pods-DreamApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp/Pods-DreamApp.debug.xcconfig"; sourceTree = "<group>"; };
-		ECD82A1F97307791D0F17547 /* Pods-DreamApp-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOS.release.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOS/Pods-DreamApp-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		79533972FBB2A0393B9A3B7F /* Pods-DreamAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamAppTests.release.xcconfig"; path = "Target Support Files/Pods-DreamAppTests/Pods-DreamAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		7B92B0E55C6D2C6CA4D816B9 /* libPods-DreamAppTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamAppTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		810B84C93828FADCBC6194C4 /* Pods-DreamApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOSTests/Pods-DreamApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9AE5252C8817CD98778E37C0 /* Pods-DreamApp-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOS/Pods-DreamApp-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		9FA9263766C004E2761D81E4 /* libPods-DreamApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABC2777E32A11BED27D85E64 /* Pods-DreamApp-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOSTests/Pods-DreamApp-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		ACA2FD6FCAC5EA2DF608026E /* Pods-DreamApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp.release.xcconfig"; path = "Target Support Files/Pods-DreamApp/Pods-DreamApp.release.xcconfig"; sourceTree = "<group>"; };
+		C88E2B69568D6EA18C1C6614 /* Pods-DreamApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp/Pods-DreamApp.debug.xcconfig"; sourceTree = "<group>"; };
+		CBAE83D6367184C62A5C89E6 /* libPods-DreamApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		EF6B5DDC55A9DF7116E90EF7 /* libPods-DreamApp-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DreamApp-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC82F5C529CB0ADE36D57349 /* Pods-DreamApp-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DreamApp-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-DreamApp-tvOSTests/Pods-DreamApp-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E580CEBABF60B29CB3B4878 /* libPods-DreamAppTests.a in Frameworks */,
+				804E72F4549D4472926882C4 /* libPods-DreamAppTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4E6257067AF725CEB3A5418 /* libPods-DreamApp.a in Frameworks */,
+				F4B9D2620D221596BBD65A7D /* libPods-DreamApp.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6E6C41F81BFEF7F73C5437E /* libPods-DreamApp-tvOS.a in Frameworks */,
+				9E5453EBD59583BA20A75D87 /* libPods-DreamApp-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77EC889EF19B9EF170C3A8D7 /* libPods-DreamApp-tvOSTests.a in Frameworks */,
+				5388A0F7780E1CE98EEE2DC7 /* libPods-DreamApp-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,28 +141,12 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				BDF3AC0C7302D037D0AC230E /* libPods-DreamApp.a */,
-				EF6B5DDC55A9DF7116E90EF7 /* libPods-DreamApp-tvOS.a */,
-				D9F0E6E21DA939FD83AD1ABE /* libPods-DreamApp-tvOSTests.a */,
-				52DADC872EBF6B60A0B8D9F3 /* libPods-DreamAppTests.a */,
+				CBAE83D6367184C62A5C89E6 /* libPods-DreamApp.a */,
+				9FA9263766C004E2761D81E4 /* libPods-DreamApp-tvOS.a */,
+				16A021251CD1DC498E3DFD28 /* libPods-DreamApp-tvOSTests.a */,
+				7B92B0E55C6D2C6CA4D816B9 /* libPods-DreamAppTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		7B4F2DC9D09E24630C99EB08 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				DC7584D4183E13DC6FED55DF /* Pods-DreamApp.debug.xcconfig */,
-				85110D36CA070D3328CB3599 /* Pods-DreamApp.release.xcconfig */,
-				A5E5DF85B3DBBEB26A085E4A /* Pods-DreamApp-tvOS.debug.xcconfig */,
-				ECD82A1F97307791D0F17547 /* Pods-DreamApp-tvOS.release.xcconfig */,
-				FC82F5C529CB0ADE36D57349 /* Pods-DreamApp-tvOSTests.debug.xcconfig */,
-				16EFA6845A1E0FC0EEDCEBBF /* Pods-DreamApp-tvOSTests.release.xcconfig */,
-				531220B354FF4E3C75F705C4 /* Pods-DreamAppTests.debug.xcconfig */,
-				6A66712EBF88911891E6EDEB /* Pods-DreamAppTests.release.xcconfig */,
-			);
-			name = Pods;
-			path = Pods;
 			sourceTree = "<group>";
 		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
@@ -180,7 +164,7 @@
 				00E356EF1AD99517003FC87E /* DreamAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
-				7B4F2DC9D09E24630C99EB08 /* Pods */,
+				E9CC201C1ED5BA25CC96BC93 /* Pods */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -198,6 +182,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E9CC201C1ED5BA25CC96BC93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C88E2B69568D6EA18C1C6614 /* Pods-DreamApp.debug.xcconfig */,
+				ACA2FD6FCAC5EA2DF608026E /* Pods-DreamApp.release.xcconfig */,
+				9AE5252C8817CD98778E37C0 /* Pods-DreamApp-tvOS.debug.xcconfig */,
+				033159DAE1159400C7C94959 /* Pods-DreamApp-tvOS.release.xcconfig */,
+				810B84C93828FADCBC6194C4 /* Pods-DreamApp-tvOSTests.debug.xcconfig */,
+				ABC2777E32A11BED27D85E64 /* Pods-DreamApp-tvOSTests.release.xcconfig */,
+				10F4858FCE8BB29EB6C826DA /* Pods-DreamAppTests.debug.xcconfig */,
+				79533972FBB2A0393B9A3B7F /* Pods-DreamAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -205,7 +205,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "DreamAppTests" */;
 			buildPhases = (
-				6912409B95D42473C0637088 /* [CP] Check Pods Manifest.lock */,
+				DF5C11A96B75914AC56229D7 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
@@ -224,7 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "DreamApp" */;
 			buildPhases = (
-				0544CF2AFAD3BAD4BBD2A460 /* [CP] Check Pods Manifest.lock */,
+				31CE19F547CF113BCC551F56 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
@@ -244,7 +244,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DreamApp-tvOS" */;
 			buildPhases = (
-				A627387F79C7C39C430DE03A /* [CP] Check Pods Manifest.lock */,
+				17B47281E12F863EB7445F33 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -264,7 +264,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "DreamApp-tvOSTests" */;
 			buildPhases = (
-				7C7EFFEE12DDC1B9C59E9C39 /* [CP] Check Pods Manifest.lock */,
+				D60DEAEE168EE249E49BF0DB /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -373,7 +373,43 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		0544CF2AFAD3BAD4BBD2A460 /* [CP] Check Pods Manifest.lock */ = {
+		17B47281E12F863EB7445F33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DreamApp-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		31CE19F547CF113BCC551F56 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -395,43 +431,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Bundle React Native Code And Images";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
-		};
-		6912409B95D42473C0637088 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DreamAppTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		7C7EFFEE12DDC1B9C59E9C39 /* [CP] Check Pods Manifest.lock */ = {
+		D60DEAEE168EE249E49BF0DB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -453,7 +453,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A627387F79C7C39C430DE03A /* [CP] Check Pods Manifest.lock */ = {
+		DF5C11A96B75914AC56229D7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -468,7 +468,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-DreamApp-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-DreamAppTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -580,7 +580,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 531220B354FF4E3C75F705C4 /* Pods-DreamAppTests.debug.xcconfig */;
+			baseConfigurationReference = 10F4858FCE8BB29EB6C826DA /* Pods-DreamAppTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -603,7 +603,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6A66712EBF88911891E6EDEB /* Pods-DreamAppTests.release.xcconfig */;
+			baseConfigurationReference = 79533972FBB2A0393B9A3B7F /* Pods-DreamAppTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -623,7 +623,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DC7584D4183E13DC6FED55DF /* Pods-DreamApp.debug.xcconfig */;
+			baseConfigurationReference = C88E2B69568D6EA18C1C6614 /* Pods-DreamApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -643,7 +643,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85110D36CA070D3328CB3599 /* Pods-DreamApp.release.xcconfig */;
+			baseConfigurationReference = ACA2FD6FCAC5EA2DF608026E /* Pods-DreamApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CURRENT_PROJECT_VERSION = 1;
@@ -662,7 +662,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5E5DF85B3DBBEB26A085E4A /* Pods-DreamApp-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 9AE5252C8817CD98778E37C0 /* Pods-DreamApp-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -690,7 +690,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = ECD82A1F97307791D0F17547 /* Pods-DreamApp-tvOS.release.xcconfig */;
+			baseConfigurationReference = 033159DAE1159400C7C94959 /* Pods-DreamApp-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -718,7 +718,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = FC82F5C529CB0ADE36D57349 /* Pods-DreamApp-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 810B84C93828FADCBC6194C4 /* Pods-DreamApp-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -745,7 +745,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 16EFA6845A1E0FC0EEDCEBBF /* Pods-DreamApp-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = ABC2777E32A11BED27D85E64 /* Pods-DreamApp-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
